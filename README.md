@@ -1,0 +1,62 @@
+# Startup Next.js Template
+
+Free and open-source Next.js startup website template with all essential pages, components, and sections needed to launch a complete business website.
+
+## 🚀 Live Demo
+
+Visit: [https://start-source.github.io](https://start-source.github.io)
+
+## ✨ Features
+
+- **Modern Design**: Professional startup-focused design with dark/light theme
+- **Complete Pages**: Home, About, Blog, Pricing, Contact, Terms, Privacy Policy
+- **Responsive**: Mobile-first responsive design
+- **AdSense Ready**: Google AdSense integration included
+- **SEO Optimized**: Built with Next.js 13+ and optimized for search engines
+- **TypeScript**: Full TypeScript support
+- **Tailwind CSS**: Utility-first CSS framework
+
+## 📦 Deployment
+
+This site is automatically deployed to GitHub Pages using GitHub Actions.
+
+### Setup Instructions:
+
+1. **Repository Settings**:
+   - Go to repository Settings → Pages
+   - Set Source to "GitHub Actions"
+
+2. **Automatic Deployment**:
+   - Push to `main` branch triggers automatic deployment
+   - Built with `npm run build:github`
+   - Deployed to GitHub Pages
+
+### Build Commands:
+
+```bash
+# Development
+npm run dev
+
+# Build for GitHub Pages
+npm run build:github
+
+# Production build
+npm run build
+```
+
+## 🛠️ Development
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Open [http://localhost:5000](http://localhost:5000)
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 🙏 Credits
+
+- Design by [UIdeck](https://uideck.com/)
+- Template by [Next.js Templates](https://nextjstemplates.com)
+- Distributed by [ThemeWagon](https://themewagon.com/)
