@@ -17,10 +17,7 @@ const nextConfig = {
     loaderFile: './lib/imageLoader.js',
   },
   
-  // Ensure proper static generation
-  experimental: {
-    appDir: true,
-  },
+  
 };
 
 module.exports = nextConfig;
