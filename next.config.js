@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Enable static export for GitHub Pages
@@ -14,6 +15,11 @@ const nextConfig = {
     unoptimized: true,
     loader: 'custom',
     loaderFile: './lib/imageLoader.js',
+  },
+  
+  // Ensure proper static generation
+  experimental: {
+    appDir: true,
   },
 };
 
